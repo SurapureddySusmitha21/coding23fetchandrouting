@@ -1,0 +1,41 @@
+/* Write your CSS code here */
+.blog-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+}
+.blog-details-title {
+  color: #000000;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.author-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.author-pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 17px;
+  margin: 8px;
+}
+.details-author-name {
+  color: #8e8e8e;
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.blog-image {
+  height: 30vh;
+  width: 90%;
+}
+.blog-content {
+  color: #2f4f4f;
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
